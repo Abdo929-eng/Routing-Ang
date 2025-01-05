@@ -1,0 +1,75 @@
+nav,.na{
+    background-color: #2c3e50 !important;
+}
+nav{
+    
+    transition: all 0.3s ease-in;
+    height: 80px;
+    position: sticky !important;
+    top: 0;
+    z-index: 999;
+}
+nav.scrolled{
+    height: 40px !important;
+}
+.bgHome{
+    background-color:  #1abc9c !important;
+    height: 600px !important;
+}
+
+    
+.bgContact{
+    height: 600px !important;
+}
+.bgportfoilio{
+
+    height: 950px !important;
+}
+.card{
+    cursor: pointer !important;
+}
+
+.pos{
+    position:fixed;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%;
+}
+.ss{
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.bgfooter{
+    background-color: rgb(44, 62, 80) !important;
+}
+.bgfoot{
+    background-color:  #212529 !important;
+}
+
+.circll{
+    width: 35px;
+    height: 35px;
+    background-color:rgba(0,0,0,0.3);
+    border-radius: 50%;
+    color: white;
+    
+    }
+.circll:hover{
+
+cursor: pointer;
+
+}
+.line[_ngcontent-yem-c6] {
+    height: 4px;
+    width: 80px;
+  }
+  .ms-3 {
+    margin-left: 1rem !important;
+  }
+ .aa{
+    text-transform: uppercase !important;
+ }
+
+

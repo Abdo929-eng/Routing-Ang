@@ -1,0 +1,73 @@
+<section class="bgportfoilio pb-5" >
+    <h1 class=" p-3  d-flex justify-content-center">portfolio component</h1>
+    <div _ngcontent-yem-c6="" class="d-flex align-items-center justify-content-center mb-5 mt-2">
+        <div _ngcontent-yem-c6="" class="line me-3 text-white" style="background-color: black;"></div>
+        <i _ngcontent-yem-c6="" class="fa-solid fa-star"></i>
+        <div _ngcontent-yem-c6="" class="line ms-3" style="background-color: black"></div>
+    </div>
+
+    <div class="container mb-5 pb-5">
+        <div class="row g-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card" >
+                   
+                    <img class=" w-100 rounded-2" src="/poert1.png" (click)="click('{{src}}')"  alt="Title"  />
+                   
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4" >
+                <div class="card" >
+                   
+                    <img class=" w-100 rounded-2" src="/port2.png" (click)="click('/port2.png')"  alt="Title"  />
+                   
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" >
+                   
+                    <img class=" w-100 rounded-2" src="/port3.png" (click)="click('/port3.png')"  alt="Title"  />
+                   
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" >
+                   
+                    <img class=" w-100 rounded-2" src="/poert1.png" (click)="click('/poert1.png')"  alt="Title"  />
+                   
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4" >
+                <div class="card">
+                   
+                    <img class=" w-100 rounded-2" src="/port2.png" (click)="click('/port2.png')"  alt="Title"  />
+                   
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4" >
+                <div class="card">
+                   
+                    <img class=" w-100 rounded-2" src="/port3.png" (click)="click('/port3.png')"  alt="Title"  />
+                   
+                </div>
+
+            </div>
+          
+        </div>
+    </div>
+
+
+@if (check) {
+    <div class="card pos" style="width: 600px;height: 300px;">
+        <button class="ss btn btn-close btn-close-white"  (click)="out()"></button>
+                   
+        <img class=" w-100 rounded-2" [src]="str"  alt="Title"  />
+       
+    </div>
+}
+
+</section>
